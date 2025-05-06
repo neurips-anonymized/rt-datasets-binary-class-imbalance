@@ -1,0 +1,850 @@
+model_category,name,field_num,field_name,field_type,data_type,field_description
+binary_classification,ozone_level,1,id,id,TEXT,unique identifier 
+binary_classification,ozone_level,2,Class,target,CATEGORICAL,"2,1 | two classes 2: ozone day, 1: normal day"
+binary_classification,ozone_level,3,V1,feature,NUMERIC,WSR0: All attributes starting with WS indicate the wind speed at various time.
+binary_classification,ozone_level,4,V2,feature,NUMERIC,WSR1
+binary_classification,ozone_level,5,V3,feature,NUMERIC,WSR2
+binary_classification,ozone_level,6,V4,feature,NUMERIC,WSR3
+binary_classification,ozone_level,7,V5,feature,NUMERIC,WSR4
+binary_classification,ozone_level,8,V6,feature,NUMERIC,WSR5
+binary_classification,ozone_level,9,V7,feature,NUMERIC,WSR6
+binary_classification,ozone_level,10,V8,feature,NUMERIC,WSR7
+binary_classification,ozone_level,11,V9,feature,NUMERIC,WSR8
+binary_classification,ozone_level,12,V10,feature,NUMERIC,WSR9
+binary_classification,ozone_level,13,V11,feature,NUMERIC,WSR10
+binary_classification,ozone_level,14,V12,feature,NUMERIC,WSR11
+binary_classification,ozone_level,15,V13,feature,NUMERIC,WSR12
+binary_classification,ozone_level,16,V14,feature,NUMERIC,WSR13
+binary_classification,ozone_level,17,V15,feature,NUMERIC,WSR14
+binary_classification,ozone_level,18,V16,feature,NUMERIC,WSR15
+binary_classification,ozone_level,19,V17,feature,NUMERIC,WSR16
+binary_classification,ozone_level,20,V18,feature,NUMERIC,WSR17
+binary_classification,ozone_level,21,V19,feature,NUMERIC,WSR18
+binary_classification,ozone_level,22,V20,feature,NUMERIC,WSR19
+binary_classification,ozone_level,23,V21,feature,NUMERIC,WSR20
+binary_classification,ozone_level,24,V22,feature,NUMERIC,WSR21
+binary_classification,ozone_level,25,V23,feature,NUMERIC,WSR22
+binary_classification,ozone_level,26,V24,feature,NUMERIC,WSR23
+binary_classification,ozone_level,27,V25,feature,NUMERIC,WSR_PK peek wind speed
+binary_classification,ozone_level,28,V26,feature,NUMERIC,WSR_AV average wind speed
+binary_classification,ozone_level,29,V27,feature,NUMERIC,T0: All the attribute start with T means the temperature measured at different time throughout the day
+binary_classification,ozone_level,30,V28,feature,NUMERIC,T1
+binary_classification,ozone_level,31,V29,feature,NUMERIC,T2
+binary_classification,ozone_level,32,V30,feature,NUMERIC,T3
+binary_classification,ozone_level,33,V31,feature,NUMERIC,T4
+binary_classification,ozone_level,34,V32,feature,NUMERIC,T5
+binary_classification,ozone_level,35,V33,feature,NUMERIC,T6
+binary_classification,ozone_level,36,V34,feature,NUMERIC,T7
+binary_classification,ozone_level,37,V35,feature,NUMERIC,T8
+binary_classification,ozone_level,38,V36,feature,NUMERIC,T9
+binary_classification,ozone_level,39,V37,feature,NUMERIC,T10
+binary_classification,ozone_level,40,V38,feature,NUMERIC,T11
+binary_classification,ozone_level,41,V39,feature,NUMERIC,T12
+binary_classification,ozone_level,42,V40,feature,NUMERIC,T13
+binary_classification,ozone_level,43,V41,feature,NUMERIC,T14
+binary_classification,ozone_level,44,V42,feature,NUMERIC,T15
+binary_classification,ozone_level,45,V43,feature,NUMERIC,T16
+binary_classification,ozone_level,46,V44,feature,NUMERIC,T17
+binary_classification,ozone_level,47,V45,feature,NUMERIC,T18
+binary_classification,ozone_level,48,V46,feature,NUMERIC,T19
+binary_classification,ozone_level,49,V47,feature,NUMERIC,T20
+binary_classification,ozone_level,50,V48,feature,NUMERIC,T21
+binary_classification,ozone_level,51,V49,feature,NUMERIC,T22
+binary_classification,ozone_level,52,V50,feature,NUMERIC,T23
+binary_classification,ozone_level,53,V51,feature,NUMERIC,T_PK Peak T
+binary_classification,ozone_level,54,V52,feature,NUMERIC,T_AV Average T
+binary_classification,ozone_level,55,V53,feature,NUMERIC,T85: T at 850 hpa level (or about 1500 m height)
+binary_classification,ozone_level,56,V54,feature,NUMERIC,RH85:  Relative Humidity at 850 hpa
+binary_classification,ozone_level,57,V55,feature,NUMERIC,U85:  (U wind - east-west direction wind at 850 hpa)
+binary_classification,ozone_level,58,V56,feature,NUMERIC,V85: V wind - N-S direction wind at 850
+binary_classification,ozone_level,59,V57,feature,NUMERIC,"HT85: Geopotential height at 850 hpa, it is about the same as height at low altitude"
+binary_classification,ozone_level,60,V58,feature,NUMERIC,T70: T at 700 hpa level (roughly 3100 m height)
+binary_classification,ozone_level,61,V59,feature,NUMERIC,RH70:   
+binary_classification,ozone_level,62,V60,feature,NUMERIC,U70:    
+binary_classification,ozone_level,63,V61,feature,NUMERIC,V70:     
+binary_classification,ozone_level,64,V62,feature,NUMERIC,HT70:   
+binary_classification,ozone_level,65,V63,feature,NUMERIC,T50: T at 500 hpa level (roughly at 5500 m height)
+binary_classification,ozone_level,66,V64,feature,NUMERIC,RH50: 
+binary_classification,ozone_level,67,V65,feature,NUMERIC,U50:   
+binary_classification,ozone_level,68,V66,feature,NUMERIC,V50:    
+binary_classification,ozone_level,69,V67,feature,NUMERIC,HT50:   
+binary_classification,ozone_level,70,V68,feature,NUMERIC,KI: K-Index http://www.weather.gov/glossary/index.php?letter=k
+binary_classification,ozone_level,71,V69,feature,NUMERIC,TT: T-Totals http://www.theweatherprediction.com/habyhints/302/
+binary_classification,ozone_level,72,V70,feature,NUMERIC,SLP: Sea level pressure
+binary_classification,ozone_level,73,V71,feature,NUMERIC,SLP_: SLP change from previous day
+binary_classification,ozone_level,74,V72,feature,NUMERIC,Precp: precipitation
+binary_classification,wilt,1,id,id,TEXT,unique identifier
+binary_classification,wilt,2,class,target,CATEGORICAL,description not available
+binary_classification,wilt,3,GLCM_Pan,feature,NUMERIC,GLCM mean texture (Pan band)
+binary_classification,wilt,4,Mean_G,feature,NUMERIC,Mean green value
+binary_classification,wilt,5,Mean_R,feature,NUMERIC,Mean red value
+binary_classification,wilt,6,Mean_NIR,feature,NUMERIC,Mean NIR value
+binary_classification,wilt,7,SD_Plan,feature,NUMERIC,Standard deviation (Pan band)
+binary_classification,thoracic_surgery,1,id,id,TEXT,unique identifier
+binary_classification,thoracic_surgery,2,Class,target,CATEGORICAL,"Risk1Y: 1 year survival period - (T)rue value if died (T,F)"
+binary_classification,thoracic_surgery,3,V1,feature,CATEGORICAL,"DGN: Diagnosis - specific combination of ICD-10 codes for primary and secondary as well multiple tumours if any (DGN3,DGN2,DGN4,DGN6,DGN5,DGN8,DGN1)"
+binary_classification,thoracic_surgery,4,V2,feature,NUMERIC,PRE4: Forced vital capacity - FVC (numeric)
+binary_classification,thoracic_surgery,5,V3,feature,NUMERIC,PRE5: Volume that has been exhaled at the end of the first second of forced expiration - FEV1 (numeric)
+binary_classification,thoracic_surgery,6,V4,feature,CATEGORICAL,"PRE6: Performance status - Zubrod scale (PRZ2,PRZ1,PRZ0)"
+binary_classification,thoracic_surgery,7,V5,feature,CATEGORICAL,"PRE7: Pain before surgery (T,F)"
+binary_classification,thoracic_surgery,8,V6,feature,CATEGORICAL,"PRE8: Haemoptysis before surgery (T,F)"
+binary_classification,thoracic_surgery,9,V7,feature,CATEGORICAL,"PRE9: Dyspnoea before surgery (T,F)"
+binary_classification,thoracic_surgery,10,V8,feature,CATEGORICAL,"PRE10: Cough before surgery (T,F)"
+binary_classification,thoracic_surgery,11,V9,feature,CATEGORICAL,"PRE11: Weakness before surgery (T,F)"
+binary_classification,thoracic_surgery,12,V10,feature,CATEGORICAL,"PRE14: T in clinical TNM - size of the original tumour, from OC11 (smallest) to OC14 (largest) (OC11,OC14,OC12,OC13)"
+binary_classification,thoracic_surgery,13,V11,feature,CATEGORICAL,"PRE17: Type 2 DM - diabetes mellitus (T,F)"
+binary_classification,thoracic_surgery,14,V12,feature,CATEGORICAL,"PRE19: MI up to 6 months (T,F)"
+binary_classification,thoracic_surgery,15,V13,feature,CATEGORICAL,"PRE25: PAD - peripheral arterial diseases (T,F)"
+binary_classification,thoracic_surgery,16,V14,feature,CATEGORICAL,"PRE30: Smoking (T,F)"
+binary_classification,thoracic_surgery,17,V15,feature,CATEGORICAL,"PRE32: Asthma (T,F)"
+binary_classification,thoracic_surgery,18,V16,feature,NUMERIC,AGE: Age at surgery (numeric)
+binary_classification,auction,1,id,id,TEXT,unique identifier
+binary_classification,auction,2,verification.result,target,CATEGORICAL,Binary verification result - is the verified outcome possible?
+binary_classification,auction,3,process.b1.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 1.
+binary_classification,auction,4,process.b2.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 2.
+binary_classification,auction,5,process.b3.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 3.
+binary_classification,auction,6,process.b4.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 4.
+binary_classification,auction,7,property.price,feature,NUMERIC,Price currently verified.
+binary_classification,auction,8,property.product,feature,NUMERIC,Product currently verified.
+binary_classification,auction,9,property.winner,feature,NUMERIC,Bidder currently verified as winner of the product (0 if only price verified).
+binary_classification,satellite,1,id,id,TEXT,unique identifier
+binary_classification,satellite,2,Target,target,CATEGORICAL,description not available
+binary_classification,satellite,3,V1,feature,NUMERIC,description not available
+binary_classification,satellite,4,V2,feature,NUMERIC,description not available
+binary_classification,satellite,5,V3,feature,NUMERIC,description not available
+binary_classification,satellite,6,V4,feature,NUMERIC,description not available
+binary_classification,satellite,7,V5,feature,NUMERIC,description not available
+binary_classification,satellite,8,V6,feature,NUMERIC,description not available
+binary_classification,satellite,9,V7,feature,NUMERIC,description not available
+binary_classification,satellite,10,V8,feature,NUMERIC,description not available
+binary_classification,satellite,11,V9,feature,NUMERIC,description not available
+binary_classification,satellite,12,V10,feature,NUMERIC,description not available
+binary_classification,satellite,13,V11,feature,NUMERIC,description not available
+binary_classification,satellite,14,V12,feature,NUMERIC,description not available
+binary_classification,satellite,15,V13,feature,NUMERIC,description not available
+binary_classification,satellite,16,V14,feature,NUMERIC,description not available
+binary_classification,satellite,17,V15,feature,NUMERIC,description not available
+binary_classification,satellite,18,V16,feature,NUMERIC,description not available
+binary_classification,satellite,19,V17,feature,NUMERIC,description not available
+binary_classification,satellite,20,V18,feature,NUMERIC,description not available
+binary_classification,satellite,21,V19,feature,NUMERIC,description not available
+binary_classification,satellite,22,V20,feature,NUMERIC,description not available
+binary_classification,satellite,23,V21,feature,NUMERIC,description not available
+binary_classification,satellite,24,V22,feature,NUMERIC,description not available
+binary_classification,satellite,25,V23,feature,NUMERIC,description not available
+binary_classification,satellite,26,V24,feature,NUMERIC,description not available
+binary_classification,satellite,27,V25,feature,NUMERIC,description not available
+binary_classification,satellite,28,V26,feature,NUMERIC,description not available
+binary_classification,satellite,29,V27,feature,NUMERIC,description not available
+binary_classification,satellite,30,V28,feature,NUMERIC,description not available
+binary_classification,satellite,31,V29,feature,NUMERIC,description not available
+binary_classification,satellite,32,V30,feature,NUMERIC,description not available
+binary_classification,satellite,33,V31,feature,NUMERIC,description not available
+binary_classification,satellite,34,V32,feature,NUMERIC,description not available
+binary_classification,satellite,35,V33,feature,NUMERIC,description not available
+binary_classification,satellite,36,V34,feature,NUMERIC,description not available
+binary_classification,satellite,37,V35,feature,NUMERIC,description not available
+binary_classification,satellite,38,V36,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,1,id,id,TEXT,unique identifier
+binary_classification,climate_simulation_crashes,2,outcome,target,CATEGORICAL,"outcome (0 = failure, 1 = success)"
+binary_classification,climate_simulation_crashes,3,Study,feature,CATEGORICAL,Latin hypercube study ID (study 1 to study 3)
+binary_classification,climate_simulation_crashes,4,Run,feature,NUMERIC,simulation ID (run 1 to run 180)
+binary_classification,climate_simulation_crashes,5,vconst_corr,feature,NUMERIC,"Columns 4-20: values of 18 climate model parameters scaled in the interval [0, 1]"
+binary_classification,climate_simulation_crashes,6,vconst_2,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,7,vconst_3,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,8,vconst_4,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,9,vconst_5,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,10,vconst_7,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,11,ah_corr,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,12,ah_bolus,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,13,slm_corr,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,14,efficiency_factor,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,15,tidal_mix_max,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,16,vertical_decay_scale,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,17,convect_corr,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,18,bckgrnd_vdc1,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,19,bckgrnd_vdc_ban,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,20,bckgrnd_vdc_eq,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,21,bckgrnd_vdc_psim,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,22,Prandtl,feature,NUMERIC,description not available
+binary_classification,seismic_bumps,1,id,id,TEXT,unique identifier
+binary_classification,seismic_bumps,2,class,target,CATEGORICAL,"the decision attribute - ""1"" means that high energy seismic bump occurred in the next shift (""hazardous state""), ""0"" means that no high energy seismic bumps occurred in the next shift (""non-hazardous state"")."
+binary_classification,seismic_bumps,3,seismic,feature,CATEGORICAL,"seismic: result of shift seismic hazard assessment in the mine working obtained by the seismic method (a - lack of hazard, b - low hazard, c - high hazard, d - danger state);"
+binary_classification,seismic_bumps,4,seismoacoustic,feature,CATEGORICAL,seismoacoustic: result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method;
+binary_classification,seismic_bumps,5,shift,feature,CATEGORICAL,"shift: information about type of a shift (W - coal-getting, N -preparation shift);"
+binary_classification,seismic_bumps,6,genergy,feature,NUMERIC,genergy: seismic energy recorded within previous shift by the most active geophone (GMax) out of geophones monitoring the longwall;
+binary_classification,seismic_bumps,7,gpuls,feature,NUMERIC,gpuls: a number of pulses recorded within previous shift by GMax;
+binary_classification,seismic_bumps,8,gdenergy,feature,NUMERIC,gdenergy: a deviation of energy recorded within previous shift by GMax from average energy recorded during eight previous shifts;
+binary_classification,seismic_bumps,9,gdpuls,feature,NUMERIC,gdpuls: a deviation of a number of pulses recorded within previous shift by GMax from average number of pulses recorded during eight previous shifts;
+binary_classification,seismic_bumps,10,ghazard,feature,CATEGORICAL,ghazard: result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method based on registration coming form GMax only;
+binary_classification,seismic_bumps,11,nbumps,feature,NUMERIC,nbumps: the number of seismic bumps recorded within previous shift;
+binary_classification,seismic_bumps,12,nbumps2,feature,NUMERIC,"nbumps2: the number of seismic bumps (in energy range [10^2,10^3)) registered within previous shift;"
+binary_classification,seismic_bumps,13,nbumps3,feature,NUMERIC,"nbumps3: the number of seismic bumps (in energy range [10^3,10^4)) registered within previous shift;"
+binary_classification,seismic_bumps,14,nbumps4,feature,NUMERIC,"nbumps4: the number of seismic bumps (in energy range [10^4,10^5)) registered within previous shift;"
+binary_classification,seismic_bumps,15,nbumps5,feature,NUMERIC,"nbumps5: the number of seismic bumps (in energy range [10^5,10^6)) registered within the last shift;"
+binary_classification,seismic_bumps,16,energy,feature,NUMERIC,energy: total energy of seismic bumps registered within previous shift;
+binary_classification,seismic_bumps,17,maxenergy,feature,NUMERIC,maxenergy: the maximum energy of the seismic bumps registered within previous shift;
+binary_classification,thyroid_disease,1,id,id,TEXT,unique identifier
+binary_classification,thyroid_disease,2,Class,target,CATEGORICAL,description not available
+binary_classification,thyroid_disease,3,age,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,4,sex,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,5,on_thyroxine,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,6,query_on_thyroxine,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,7,on_antithyroid_medication,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,8,sick,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,9,pregnant,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,10,thyroid_surgery,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,11,I131_treatment,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,12,query_hypothyroid,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,13,query_hyperthyroid,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,14,lithium,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,15,goitre,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,16,tumor,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,17,hypopituitary,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,18,psych,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,19,TSH_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,20,TSH,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,21,T3_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,22,T3,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,23,TT4_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,24,TT4,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,25,T4U_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,26,T4U,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,27,FTI_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,28,FTI,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,29,referral_source,feature,CATEGORICAL,description not available
+binary_classification,sick_euthyroid,1,id,id,TEXT,unique identifier
+binary_classification,sick_euthyroid,2,f0,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,3,f1,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,4,f2,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,5,f3,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,6,f4,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,7,f5,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,8,f6,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,9,f7,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,10,f8,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,11,f9,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,12,f10,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,13,f11,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,14,f12,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,15,f13,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,16,f14,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,17,f15,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,18,f16,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,19,f17,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,20,f18,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,21,f19,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,22,f20,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,23,f21,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,24,f22,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,25,f23,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,26,f24,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,27,f25,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,28,f26,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,29,f27,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,30,f28,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,31,f29,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,32,f30,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,33,f31,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,34,f32,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,35,f33,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,36,f34,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,37,f35,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,38,f36,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,39,f37,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,40,f38,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,41,f39,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,42,f40,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,43,f41,feature,NUMERIC,not available
+binary_classification,sick_euthyroid,44,target,target,CATEGORICAL,not available
+binary_classification,graduation,1,id,id,TEXT,unique identifier
+binary_classification,graduation,2,ip1,feature,NUMERIC,GPA from semester 1
+binary_classification,graduation,3,ip2,feature,NUMERIC,GPA from semester 2
+binary_classification,graduation,4,ip3,feature,NUMERIC,GPA from semester 3
+binary_classification,graduation,5,ip4,feature,NUMERIC,GPA from semester 4
+binary_classification,graduation,6,tepat,target,CATEGORICAL,"Output class Yes/No. Tidak = No, Ya = Yes"
+binary_classification,pc1,1,id,id,TEXT,unique identifier
+binary_classification,pc1,2,loc,feature,NUMERIC,loc : numeric % McCabe's line count of code
+binary_classification,pc1,3,v(g),feature,NUMERIC,"v(g) : numeric % McCabe ""cyclomatic complexity"""
+binary_classification,pc1,4,ev(g),feature,NUMERIC,"ev(g) : numeric % McCabe ""essential complexity"""
+binary_classification,pc1,5,iv(G),feature,NUMERIC,"iv(g) : numeric % McCabe ""design complexity"""
+binary_classification,pc1,6,N,feature,NUMERIC,n : numeric % Halstead total operators + operands
+binary_classification,pc1,7,V,feature,NUMERIC,"v : numeric % Halstead ""volume"""
+binary_classification,pc1,8,L,feature,NUMERIC,"l : numeric % Halstead ""program length"""
+binary_classification,pc1,9,D,feature,NUMERIC,"d : numeric % Halstead ""difficulty"""
+binary_classification,pc1,10,I,feature,NUMERIC,"i : numeric % Halstead ""intelligence"""
+binary_classification,pc1,11,E,feature,NUMERIC,"e : numeric % Halstead ""effort"""
+binary_classification,pc1,12,B,feature,NUMERIC,b : numeric % Halstead
+binary_classification,pc1,13,T,feature,NUMERIC,t : numeric % Halstead's time estimator
+binary_classification,pc1,14,lOCode,feature,NUMERIC,lOCode : numeric % Halstead's line count
+binary_classification,pc1,15,lOComment,feature,NUMERIC,lOComment : numeric % Halstead's count of lines of comments
+binary_classification,pc1,16,locCodeAndComment,feature,NUMERIC,lOCodeAndComment: numeric
+binary_classification,pc1,17,lOBlank,feature,NUMERIC,lOBlank : numeric % Halstead's count of blank lines
+binary_classification,pc1,18,uniq_Op,feature,NUMERIC,uniq_Op : numeric % unique operators
+binary_classification,pc1,19,uniq_Opnd,feature,NUMERIC,uniq_Opnd : numeric % unique operands
+binary_classification,pc1,20,total_Op,feature,NUMERIC,total_Op : numeric % total operators
+binary_classification,pc1,21,total_Opnd,feature,NUMERIC,total_Opnd : numeric % total operands
+binary_classification,pc1,22,branchCount,feature,NUMERIC,branchCount : numeric % of the flow graph
+binary_classification,pc1,23,defects,target,CATEGORICAL,"defects : {false,true} % module has/has not one or more reported defects"
+binary_classification,car_eval_binarized,1,id,id,TEXT,unique identifier
+binary_classification,car_eval_binarized,2,f0,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,3,f1,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,4,f2,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,5,f3,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,6,f4,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,7,f5,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,8,f6,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,9,f7,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,10,f8,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,11,f9,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,12,f10,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,13,f11,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,14,f12,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,15,f13,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,16,f14,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,17,f15,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,18,f16,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,19,f17,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,20,f18,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,21,f19,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,22,f20,feature,NUMERIC,not available
+binary_classification,car_eval_binarized,23,target,target,CATEGORICAL,not available
+binary_classification,abalone_binarized,1,id,id,TEXT,unique identifier
+binary_classification,abalone_binarized,2,f0,feature,NUMERIC,not available
+binary_classification,abalone_binarized,3,f1,feature,NUMERIC,not available
+binary_classification,abalone_binarized,4,f2,feature,NUMERIC,not available
+binary_classification,abalone_binarized,5,f3,feature,NUMERIC,not available
+binary_classification,abalone_binarized,6,f4,feature,NUMERIC,not available
+binary_classification,abalone_binarized,7,f5,feature,NUMERIC,not available
+binary_classification,abalone_binarized,8,f6,feature,NUMERIC,not available
+binary_classification,abalone_binarized,9,f7,feature,NUMERIC,not available
+binary_classification,abalone_binarized,10,f8,feature,NUMERIC,not available
+binary_classification,abalone_binarized,11,f9,feature,NUMERIC,not available
+binary_classification,abalone_binarized,12,target,target,CATEGORICAL,not available
+binary_classification,pie_chart,1,id,id,TEXT,unique identifier
+binary_classification,pie_chart,2,a,feature,NUMERIC,not available
+binary_classification,pie_chart,3,b,feature,NUMERIC,not available
+binary_classification,pie_chart,4,c,feature,NUMERIC,not available
+binary_classification,pie_chart,5,d,feature,NUMERIC,not available
+binary_classification,pie_chart,6,e,feature,NUMERIC,not available
+binary_classification,pie_chart,7,f,feature,NUMERIC,not available
+binary_classification,pie_chart,8,g,feature,NUMERIC,not available
+binary_classification,pie_chart,9,h,feature,NUMERIC,not available
+binary_classification,pie_chart,10,i,feature,NUMERIC,not available
+binary_classification,pie_chart,11,j,feature,NUMERIC,not available
+binary_classification,pie_chart,12,k,feature,NUMERIC,not available
+binary_classification,pie_chart,13,l,feature,NUMERIC,not available
+binary_classification,pie_chart,14,m,feature,NUMERIC,not available
+binary_classification,pie_chart,15,n,feature,NUMERIC,not available
+binary_classification,pie_chart,16,o,feature,NUMERIC,not available
+binary_classification,pie_chart,17,p,feature,NUMERIC,not available
+binary_classification,pie_chart,18,r,feature,NUMERIC,not available
+binary_classification,pie_chart,19,s,feature,NUMERIC,not available
+binary_classification,pie_chart,20,t,feature,NUMERIC,not available
+binary_classification,pie_chart,21,u,feature,NUMERIC,not available
+binary_classification,pie_chart,22,v,feature,NUMERIC,not available
+binary_classification,pie_chart,23,z,feature,NUMERIC,not available
+binary_classification,pie_chart,24,aa,feature,NUMERIC,not available
+binary_classification,pie_chart,25,ab,feature,NUMERIC,not available
+binary_classification,pie_chart,26,ac,feature,NUMERIC,not available
+binary_classification,pie_chart,27,ad,feature,NUMERIC,not available
+binary_classification,pie_chart,28,ae,feature,NUMERIC,not available
+binary_classification,pie_chart,29,af,feature,NUMERIC,not available
+binary_classification,pie_chart,30,ag,feature,NUMERIC,not available
+binary_classification,pie_chart,31,ah,feature,NUMERIC,not available
+binary_classification,pie_chart,32,ai,feature,NUMERIC,not available
+binary_classification,pie_chart,33,aj,feature,NUMERIC,not available
+binary_classification,pie_chart,34,ak,feature,NUMERIC,not available
+binary_classification,pie_chart,35,al,feature,NUMERIC,not available
+binary_classification,pie_chart,36,am,feature,NUMERIC,not available
+binary_classification,pie_chart,37,an,feature,NUMERIC,not available
+binary_classification,pie_chart,38,ao,feature,NUMERIC,not available
+binary_classification,pie_chart,39,def,target,CATEGORICAL,not available
+binary_classification,pen_digits,1,id,id,TEXT,unique identifier
+binary_classification,pen_digits,2,f0,feature,NUMERIC,not available
+binary_classification,pen_digits,3,f1,feature,NUMERIC,not available
+binary_classification,pen_digits,4,f2,feature,NUMERIC,not available
+binary_classification,pen_digits,5,f3,feature,NUMERIC,not available
+binary_classification,pen_digits,6,f4,feature,NUMERIC,not available
+binary_classification,pen_digits,7,f5,feature,NUMERIC,not available
+binary_classification,pen_digits,8,f6,feature,NUMERIC,not available
+binary_classification,pen_digits,9,f7,feature,NUMERIC,not available
+binary_classification,pen_digits,10,f8,feature,NUMERIC,not available
+binary_classification,pen_digits,11,f9,feature,NUMERIC,not available
+binary_classification,pen_digits,12,f10,feature,NUMERIC,not available
+binary_classification,pen_digits,13,f11,feature,NUMERIC,not available
+binary_classification,pen_digits,14,f12,feature,NUMERIC,not available
+binary_classification,pen_digits,15,f13,feature,NUMERIC,not available
+binary_classification,pen_digits,16,f14,feature,NUMERIC,not available
+binary_classification,pen_digits,17,f15,feature,NUMERIC,not available
+binary_classification,pen_digits,18,target,target,CATEGORICAL,not available
+binary_classification,us_crime,1,id,id,TEXT,unique identifier
+binary_classification,us_crime,2,f0,feature,NUMERIC,not available
+binary_classification,us_crime,3,f1,feature,NUMERIC,not available
+binary_classification,us_crime,4,f2,feature,NUMERIC,not available
+binary_classification,us_crime,5,f3,feature,NUMERIC,not available
+binary_classification,us_crime,6,f4,feature,NUMERIC,not available
+binary_classification,us_crime,7,f5,feature,NUMERIC,not available
+binary_classification,us_crime,8,f6,feature,NUMERIC,not available
+binary_classification,us_crime,9,f7,feature,NUMERIC,not available
+binary_classification,us_crime,10,f8,feature,NUMERIC,not available
+binary_classification,us_crime,11,f9,feature,NUMERIC,not available
+binary_classification,us_crime,12,f10,feature,NUMERIC,not available
+binary_classification,us_crime,13,f11,feature,NUMERIC,not available
+binary_classification,us_crime,14,f12,feature,NUMERIC,not available
+binary_classification,us_crime,15,f13,feature,NUMERIC,not available
+binary_classification,us_crime,16,f14,feature,NUMERIC,not available
+binary_classification,us_crime,17,f15,feature,NUMERIC,not available
+binary_classification,us_crime,18,f16,feature,NUMERIC,not available
+binary_classification,us_crime,19,f17,feature,NUMERIC,not available
+binary_classification,us_crime,20,f18,feature,NUMERIC,not available
+binary_classification,us_crime,21,f19,feature,NUMERIC,not available
+binary_classification,us_crime,22,f20,feature,NUMERIC,not available
+binary_classification,us_crime,23,f21,feature,NUMERIC,not available
+binary_classification,us_crime,24,f22,feature,NUMERIC,not available
+binary_classification,us_crime,25,f23,feature,NUMERIC,not available
+binary_classification,us_crime,26,f24,feature,NUMERIC,not available
+binary_classification,us_crime,27,f25,feature,NUMERIC,not available
+binary_classification,us_crime,28,f26,feature,NUMERIC,not available
+binary_classification,us_crime,29,f27,feature,NUMERIC,not available
+binary_classification,us_crime,30,f28,feature,NUMERIC,not available
+binary_classification,us_crime,31,f29,feature,NUMERIC,not available
+binary_classification,us_crime,32,f30,feature,NUMERIC,not available
+binary_classification,us_crime,33,f31,feature,NUMERIC,not available
+binary_classification,us_crime,34,f32,feature,NUMERIC,not available
+binary_classification,us_crime,35,f33,feature,NUMERIC,not available
+binary_classification,us_crime,36,f34,feature,NUMERIC,not available
+binary_classification,us_crime,37,f35,feature,NUMERIC,not available
+binary_classification,us_crime,38,f36,feature,NUMERIC,not available
+binary_classification,us_crime,39,f37,feature,NUMERIC,not available
+binary_classification,us_crime,40,f38,feature,NUMERIC,not available
+binary_classification,us_crime,41,f39,feature,NUMERIC,not available
+binary_classification,us_crime,42,f40,feature,NUMERIC,not available
+binary_classification,us_crime,43,f41,feature,NUMERIC,not available
+binary_classification,us_crime,44,f42,feature,NUMERIC,not available
+binary_classification,us_crime,45,f43,feature,NUMERIC,not available
+binary_classification,us_crime,46,f44,feature,NUMERIC,not available
+binary_classification,us_crime,47,f45,feature,NUMERIC,not available
+binary_classification,us_crime,48,f46,feature,NUMERIC,not available
+binary_classification,us_crime,49,f47,feature,NUMERIC,not available
+binary_classification,us_crime,50,f48,feature,NUMERIC,not available
+binary_classification,us_crime,51,f49,feature,NUMERIC,not available
+binary_classification,us_crime,52,f50,feature,NUMERIC,not available
+binary_classification,us_crime,53,f51,feature,NUMERIC,not available
+binary_classification,us_crime,54,f52,feature,NUMERIC,not available
+binary_classification,us_crime,55,f53,feature,NUMERIC,not available
+binary_classification,us_crime,56,f54,feature,NUMERIC,not available
+binary_classification,us_crime,57,f55,feature,NUMERIC,not available
+binary_classification,us_crime,58,f56,feature,NUMERIC,not available
+binary_classification,us_crime,59,f57,feature,NUMERIC,not available
+binary_classification,us_crime,60,f58,feature,NUMERIC,not available
+binary_classification,us_crime,61,f59,feature,NUMERIC,not available
+binary_classification,us_crime,62,f60,feature,NUMERIC,not available
+binary_classification,us_crime,63,f61,feature,NUMERIC,not available
+binary_classification,us_crime,64,f62,feature,NUMERIC,not available
+binary_classification,us_crime,65,f63,feature,NUMERIC,not available
+binary_classification,us_crime,66,f64,feature,NUMERIC,not available
+binary_classification,us_crime,67,f65,feature,NUMERIC,not available
+binary_classification,us_crime,68,f66,feature,NUMERIC,not available
+binary_classification,us_crime,69,f67,feature,NUMERIC,not available
+binary_classification,us_crime,70,f68,feature,NUMERIC,not available
+binary_classification,us_crime,71,f69,feature,NUMERIC,not available
+binary_classification,us_crime,72,f70,feature,NUMERIC,not available
+binary_classification,us_crime,73,f71,feature,NUMERIC,not available
+binary_classification,us_crime,74,f72,feature,NUMERIC,not available
+binary_classification,us_crime,75,f73,feature,NUMERIC,not available
+binary_classification,us_crime,76,f74,feature,NUMERIC,not available
+binary_classification,us_crime,77,f75,feature,NUMERIC,not available
+binary_classification,us_crime,78,f76,feature,NUMERIC,not available
+binary_classification,us_crime,79,f77,feature,NUMERIC,not available
+binary_classification,us_crime,80,f78,feature,NUMERIC,not available
+binary_classification,us_crime,81,f79,feature,NUMERIC,not available
+binary_classification,us_crime,82,f80,feature,NUMERIC,not available
+binary_classification,us_crime,83,f81,feature,NUMERIC,not available
+binary_classification,us_crime,84,f82,feature,NUMERIC,not available
+binary_classification,us_crime,85,f83,feature,NUMERIC,not available
+binary_classification,us_crime,86,f84,feature,NUMERIC,not available
+binary_classification,us_crime,87,f85,feature,NUMERIC,not available
+binary_classification,us_crime,88,f86,feature,NUMERIC,not available
+binary_classification,us_crime,89,f87,feature,NUMERIC,not available
+binary_classification,us_crime,90,f88,feature,NUMERIC,not available
+binary_classification,us_crime,91,f89,feature,NUMERIC,not available
+binary_classification,us_crime,92,f90,feature,NUMERIC,not available
+binary_classification,us_crime,93,f91,feature,NUMERIC,not available
+binary_classification,us_crime,94,f92,feature,NUMERIC,not available
+binary_classification,us_crime,95,f93,feature,NUMERIC,not available
+binary_classification,us_crime,96,f94,feature,NUMERIC,not available
+binary_classification,us_crime,97,f95,feature,NUMERIC,not available
+binary_classification,us_crime,98,f96,feature,NUMERIC,not available
+binary_classification,us_crime,99,f97,feature,NUMERIC,not available
+binary_classification,us_crime,100,f98,feature,NUMERIC,not available
+binary_classification,us_crime,101,f99,feature,NUMERIC,not available
+binary_classification,us_crime,102,target,target,CATEGORICAL,not available
+binary_classification,letter_img,1,id,id,TEXT,unique identifier
+binary_classification,letter_img,2,f0,feature,NUMERIC,not available
+binary_classification,letter_img,3,f1,feature,NUMERIC,not available
+binary_classification,letter_img,4,f2,feature,NUMERIC,not available
+binary_classification,letter_img,5,f3,feature,NUMERIC,not available
+binary_classification,letter_img,6,f4,feature,NUMERIC,not available
+binary_classification,letter_img,7,f5,feature,NUMERIC,not available
+binary_classification,letter_img,8,f6,feature,NUMERIC,not available
+binary_classification,letter_img,9,f7,feature,NUMERIC,not available
+binary_classification,letter_img,10,f8,feature,NUMERIC,not available
+binary_classification,letter_img,11,f9,feature,NUMERIC,not available
+binary_classification,letter_img,12,f10,feature,NUMERIC,not available
+binary_classification,letter_img,13,f11,feature,NUMERIC,not available
+binary_classification,letter_img,14,f12,feature,NUMERIC,not available
+binary_classification,letter_img,15,f13,feature,NUMERIC,not available
+binary_classification,letter_img,16,f14,feature,NUMERIC,not available
+binary_classification,letter_img,17,f15,feature,NUMERIC,not available
+binary_classification,letter_img,18,target,target,CATEGORICAL,not available
+binary_classification,kc1,1,id,id,TEXT,unique identifier
+binary_classification,kc1,2,loc,feature,NUMERIC,loc : numeric % McCabe's line count of code
+binary_classification,kc1,3,v(g),feature,NUMERIC,"v(g) : numeric % McCabe ""cyclomatic complexity"""
+binary_classification,kc1,4,ev(g),feature,NUMERIC,"ev(g) : numeric % McCabe ""essential complexity"""
+binary_classification,kc1,5,iv(g),feature,NUMERIC,"iv(g) : numeric % McCabe ""design complexity"""
+binary_classification,kc1,6,n,feature,NUMERIC,n : numeric % Halstead total operators + operands
+binary_classification,kc1,7,v,feature,NUMERIC,"v : numeric % Halstead ""volume"""
+binary_classification,kc1,8,l,feature,NUMERIC,"l : numeric % Halstead ""program length"""
+binary_classification,kc1,9,d,feature,NUMERIC,"d : numeric % Halstead ""difficulty"""
+binary_classification,kc1,10,i,feature,NUMERIC,"i : numeric % Halstead ""intelligence"""
+binary_classification,kc1,11,e,feature,NUMERIC,"e : numeric % Halstead ""effort"""
+binary_classification,kc1,12,b,feature,NUMERIC,b : numeric % Halstead
+binary_classification,kc1,13,t,feature,NUMERIC,t : numeric % Halstead's time estimator
+binary_classification,kc1,14,lOCode,feature,NUMERIC,lOCode : numeric % Halstead's line count
+binary_classification,kc1,15,lOComment,feature,NUMERIC,lOComment : numeric % Halstead's count of lines of comments
+binary_classification,kc1,16,lOBlank,feature,NUMERIC,lOBlank : numeric % Halstead's count of blank lines
+binary_classification,kc1,17,locCodeAndComment,feature,NUMERIC,lOCodeAndComment: numeric
+binary_classification,kc1,18,uniq_Op,feature,NUMERIC,uniq_Op : numeric % unique operators
+binary_classification,kc1,19,uniq_Opnd,feature,NUMERIC,uniq_Opnd : numeric % unique operands
+binary_classification,kc1,20,total_Op,feature,NUMERIC,total_Op : numeric % total operators
+binary_classification,kc1,21,total_Opnd,feature,NUMERIC,total_Opnd : numeric % total operands
+binary_classification,kc1,22,branchCount,feature,NUMERIC,branchCount : numeric % of the flow graph
+binary_classification,kc1,23,defects,target,CATEGORICAL,"problems : {false,true} % module has/has not one or more reported defects"
+binary_classification,optical_digits,1,id,id,TEXT,unique identifier
+binary_classification,optical_digits,2,f1,feature,NUMERIC,not available
+binary_classification,optical_digits,3,f2,feature,NUMERIC,not available
+binary_classification,optical_digits,4,f3,feature,NUMERIC,not available
+binary_classification,optical_digits,5,f4,feature,NUMERIC,not available
+binary_classification,optical_digits,6,f5,feature,NUMERIC,not available
+binary_classification,optical_digits,7,f6,feature,NUMERIC,not available
+binary_classification,optical_digits,8,f7,feature,NUMERIC,not available
+binary_classification,optical_digits,9,f8,feature,NUMERIC,not available
+binary_classification,optical_digits,10,f9,feature,NUMERIC,not available
+binary_classification,optical_digits,11,f10,feature,NUMERIC,not available
+binary_classification,optical_digits,12,f11,feature,NUMERIC,not available
+binary_classification,optical_digits,13,f12,feature,NUMERIC,not available
+binary_classification,optical_digits,14,f13,feature,NUMERIC,not available
+binary_classification,optical_digits,15,f14,feature,NUMERIC,not available
+binary_classification,optical_digits,16,f15,feature,NUMERIC,not available
+binary_classification,optical_digits,17,f16,feature,NUMERIC,not available
+binary_classification,optical_digits,18,f17,feature,NUMERIC,not available
+binary_classification,optical_digits,19,f18,feature,NUMERIC,not available
+binary_classification,optical_digits,20,f19,feature,NUMERIC,not available
+binary_classification,optical_digits,21,f20,feature,NUMERIC,not available
+binary_classification,optical_digits,22,f21,feature,NUMERIC,not available
+binary_classification,optical_digits,23,f22,feature,NUMERIC,not available
+binary_classification,optical_digits,24,f23,feature,NUMERIC,not available
+binary_classification,optical_digits,25,f24,feature,NUMERIC,not available
+binary_classification,optical_digits,26,f25,feature,NUMERIC,not available
+binary_classification,optical_digits,27,f26,feature,NUMERIC,not available
+binary_classification,optical_digits,28,f27,feature,NUMERIC,not available
+binary_classification,optical_digits,29,f28,feature,NUMERIC,not available
+binary_classification,optical_digits,30,f29,feature,NUMERIC,not available
+binary_classification,optical_digits,31,f30,feature,NUMERIC,not available
+binary_classification,optical_digits,32,f31,feature,NUMERIC,not available
+binary_classification,optical_digits,33,f32,feature,NUMERIC,not available
+binary_classification,optical_digits,34,f33,feature,NUMERIC,not available
+binary_classification,optical_digits,35,f34,feature,NUMERIC,not available
+binary_classification,optical_digits,36,f35,feature,NUMERIC,not available
+binary_classification,optical_digits,37,f36,feature,NUMERIC,not available
+binary_classification,optical_digits,38,f37,feature,NUMERIC,not available
+binary_classification,optical_digits,39,f38,feature,NUMERIC,not available
+binary_classification,optical_digits,40,f40,feature,NUMERIC,not available
+binary_classification,optical_digits,41,f41,feature,NUMERIC,not available
+binary_classification,optical_digits,42,f42,feature,NUMERIC,not available
+binary_classification,optical_digits,43,f43,feature,NUMERIC,not available
+binary_classification,optical_digits,44,f44,feature,NUMERIC,not available
+binary_classification,optical_digits,45,f45,feature,NUMERIC,not available
+binary_classification,optical_digits,46,f46,feature,NUMERIC,not available
+binary_classification,optical_digits,47,f47,feature,NUMERIC,not available
+binary_classification,optical_digits,48,f48,feature,NUMERIC,not available
+binary_classification,optical_digits,49,f49,feature,NUMERIC,not available
+binary_classification,optical_digits,50,f50,feature,NUMERIC,not available
+binary_classification,optical_digits,51,f51,feature,NUMERIC,not available
+binary_classification,optical_digits,52,f52,feature,NUMERIC,not available
+binary_classification,optical_digits,53,f53,feature,NUMERIC,not available
+binary_classification,optical_digits,54,f54,feature,NUMERIC,not available
+binary_classification,optical_digits,55,f55,feature,NUMERIC,not available
+binary_classification,optical_digits,56,f56,feature,NUMERIC,not available
+binary_classification,optical_digits,57,f57,feature,NUMERIC,not available
+binary_classification,optical_digits,58,f58,feature,NUMERIC,not available
+binary_classification,optical_digits,59,f59,feature,NUMERIC,not available
+binary_classification,optical_digits,60,f60,feature,NUMERIC,not available
+binary_classification,optical_digits,61,f61,feature,NUMERIC,not available
+binary_classification,optical_digits,62,f62,feature,NUMERIC,not available
+binary_classification,optical_digits,63,f63,feature,NUMERIC,not available
+binary_classification,optical_digits,64,target,target,CATEGORICAL,not available
+binary_classification,satimage,1,id,id,TEXT,unique identifier
+binary_classification,satimage,2,f0,feature,NUMERIC,not available
+binary_classification,satimage,3,f1,feature,NUMERIC,not available
+binary_classification,satimage,4,f2,feature,NUMERIC,not available
+binary_classification,satimage,5,f3,feature,NUMERIC,not available
+binary_classification,satimage,6,f4,feature,NUMERIC,not available
+binary_classification,satimage,7,f5,feature,NUMERIC,not available
+binary_classification,satimage,8,f6,feature,NUMERIC,not available
+binary_classification,satimage,9,f7,feature,NUMERIC,not available
+binary_classification,satimage,10,f8,feature,NUMERIC,not available
+binary_classification,satimage,11,f9,feature,NUMERIC,not available
+binary_classification,satimage,12,f10,feature,NUMERIC,not available
+binary_classification,satimage,13,f11,feature,NUMERIC,not available
+binary_classification,satimage,14,f12,feature,NUMERIC,not available
+binary_classification,satimage,15,f13,feature,NUMERIC,not available
+binary_classification,satimage,16,f14,feature,NUMERIC,not available
+binary_classification,satimage,17,f15,feature,NUMERIC,not available
+binary_classification,satimage,18,f16,feature,NUMERIC,not available
+binary_classification,satimage,19,f17,feature,NUMERIC,not available
+binary_classification,satimage,20,f18,feature,NUMERIC,not available
+binary_classification,satimage,21,f19,feature,NUMERIC,not available
+binary_classification,satimage,22,f20,feature,NUMERIC,not available
+binary_classification,satimage,23,f21,feature,NUMERIC,not available
+binary_classification,satimage,24,f22,feature,NUMERIC,not available
+binary_classification,satimage,25,f23,feature,NUMERIC,not available
+binary_classification,satimage,26,f24,feature,NUMERIC,not available
+binary_classification,satimage,27,f25,feature,NUMERIC,not available
+binary_classification,satimage,28,f26,feature,NUMERIC,not available
+binary_classification,satimage,29,f27,feature,NUMERIC,not available
+binary_classification,satimage,30,f28,feature,NUMERIC,not available
+binary_classification,satimage,31,f29,feature,NUMERIC,not available
+binary_classification,satimage,32,f30,feature,NUMERIC,not available
+binary_classification,satimage,33,f31,feature,NUMERIC,not available
+binary_classification,satimage,34,f32,feature,NUMERIC,not available
+binary_classification,satimage,35,f33,feature,NUMERIC,not available
+binary_classification,satimage,36,f34,feature,NUMERIC,not available
+binary_classification,satimage,37,f35,feature,NUMERIC,not available
+binary_classification,satimage,38,target,target,CATEGORICAL,not available
+binary_classification,vowel,1,id,id,TEXT,unique identifier
+binary_classification,vowel,2,TT,feature,CATEGORICAL,not available
+binary_classification,vowel,3,SpeakerNumber,feature,CATEGORICAL,not available
+binary_classification,vowel,4,Sex,feature,CATEGORICAL,not available
+binary_classification,vowel,5,F0,feature,NUMERIC,not available
+binary_classification,vowel,6,F1,feature,NUMERIC,not available
+binary_classification,vowel,7,F2,feature,NUMERIC,not available
+binary_classification,vowel,8,F3,feature,NUMERIC,not available
+binary_classification,vowel,9,F4,feature,NUMERIC,not available
+binary_classification,vowel,10,F5,feature,NUMERIC,not available
+binary_classification,vowel,11,F6,feature,NUMERIC,not available
+binary_classification,vowel,12,F7,feature,NUMERIC,not available
+binary_classification,vowel,13,F8,feature,NUMERIC,not available
+binary_classification,vowel,14,F9,feature,NUMERIC,not available
+binary_classification,vowel,15,Class,target,CATEGORICAL,not available
+binary_classification,coil_2000,1,id,id,TEXT,unique identifier
+binary_classification,coil_2000,2,f0,feature,NUMERIC,not available
+binary_classification,coil_2000,3,f1,feature,NUMERIC,not available
+binary_classification,coil_2000,4,f2,feature,NUMERIC,not available
+binary_classification,coil_2000,5,f3,feature,NUMERIC,not available
+binary_classification,coil_2000,6,f4,feature,NUMERIC,not available
+binary_classification,coil_2000,7,f5,feature,NUMERIC,not available
+binary_classification,coil_2000,8,f6,feature,NUMERIC,not available
+binary_classification,coil_2000,9,f7,feature,NUMERIC,not available
+binary_classification,coil_2000,10,f8,feature,NUMERIC,not available
+binary_classification,coil_2000,11,f9,feature,NUMERIC,not available
+binary_classification,coil_2000,12,f10,feature,NUMERIC,not available
+binary_classification,coil_2000,13,f11,feature,NUMERIC,not available
+binary_classification,coil_2000,14,f12,feature,NUMERIC,not available
+binary_classification,coil_2000,15,f13,feature,NUMERIC,not available
+binary_classification,coil_2000,16,f14,feature,NUMERIC,not available
+binary_classification,coil_2000,17,f15,feature,NUMERIC,not available
+binary_classification,coil_2000,18,f16,feature,NUMERIC,not available
+binary_classification,coil_2000,19,f17,feature,NUMERIC,not available
+binary_classification,coil_2000,20,f18,feature,NUMERIC,not available
+binary_classification,coil_2000,21,f19,feature,NUMERIC,not available
+binary_classification,coil_2000,22,f20,feature,NUMERIC,not available
+binary_classification,coil_2000,23,f21,feature,NUMERIC,not available
+binary_classification,coil_2000,24,f22,feature,NUMERIC,not available
+binary_classification,coil_2000,25,f23,feature,NUMERIC,not available
+binary_classification,coil_2000,26,f24,feature,NUMERIC,not available
+binary_classification,coil_2000,27,f25,feature,NUMERIC,not available
+binary_classification,coil_2000,28,f26,feature,NUMERIC,not available
+binary_classification,coil_2000,29,f27,feature,NUMERIC,not available
+binary_classification,coil_2000,30,f28,feature,NUMERIC,not available
+binary_classification,coil_2000,31,f29,feature,NUMERIC,not available
+binary_classification,coil_2000,32,f30,feature,NUMERIC,not available
+binary_classification,coil_2000,33,f31,feature,NUMERIC,not available
+binary_classification,coil_2000,34,f32,feature,NUMERIC,not available
+binary_classification,coil_2000,35,f33,feature,NUMERIC,not available
+binary_classification,coil_2000,36,f34,feature,NUMERIC,not available
+binary_classification,coil_2000,37,f35,feature,NUMERIC,not available
+binary_classification,coil_2000,38,f36,feature,NUMERIC,not available
+binary_classification,coil_2000,39,f37,feature,NUMERIC,not available
+binary_classification,coil_2000,40,f38,feature,NUMERIC,not available
+binary_classification,coil_2000,41,f39,feature,NUMERIC,not available
+binary_classification,coil_2000,42,f40,feature,NUMERIC,not available
+binary_classification,coil_2000,43,f41,feature,NUMERIC,not available
+binary_classification,coil_2000,44,f42,feature,NUMERIC,not available
+binary_classification,coil_2000,45,f43,feature,NUMERIC,not available
+binary_classification,coil_2000,46,f44,feature,NUMERIC,not available
+binary_classification,coil_2000,47,f45,feature,NUMERIC,not available
+binary_classification,coil_2000,48,f46,feature,NUMERIC,not available
+binary_classification,coil_2000,49,f47,feature,NUMERIC,not available
+binary_classification,coil_2000,50,f48,feature,NUMERIC,not available
+binary_classification,coil_2000,51,f49,feature,NUMERIC,not available
+binary_classification,coil_2000,52,f50,feature,NUMERIC,not available
+binary_classification,coil_2000,53,f51,feature,NUMERIC,not available
+binary_classification,coil_2000,54,f52,feature,NUMERIC,not available
+binary_classification,coil_2000,55,f53,feature,NUMERIC,not available
+binary_classification,coil_2000,56,f54,feature,NUMERIC,not available
+binary_classification,coil_2000,57,f55,feature,NUMERIC,not available
+binary_classification,coil_2000,58,f56,feature,NUMERIC,not available
+binary_classification,coil_2000,59,f57,feature,NUMERIC,not available
+binary_classification,coil_2000,60,f58,feature,NUMERIC,not available
+binary_classification,coil_2000,61,f59,feature,NUMERIC,not available
+binary_classification,coil_2000,62,f60,feature,NUMERIC,not available
+binary_classification,coil_2000,63,f61,feature,NUMERIC,not available
+binary_classification,coil_2000,64,f62,feature,NUMERIC,not available
+binary_classification,coil_2000,65,f63,feature,NUMERIC,not available
+binary_classification,coil_2000,66,f64,feature,NUMERIC,not available
+binary_classification,coil_2000,67,f65,feature,NUMERIC,not available
+binary_classification,coil_2000,68,f66,feature,NUMERIC,not available
+binary_classification,coil_2000,69,f67,feature,NUMERIC,not available
+binary_classification,coil_2000,70,f68,feature,NUMERIC,not available
+binary_classification,coil_2000,71,f69,feature,NUMERIC,not available
+binary_classification,coil_2000,72,f70,feature,NUMERIC,not available
+binary_classification,coil_2000,73,f71,feature,NUMERIC,not available
+binary_classification,coil_2000,74,f72,feature,NUMERIC,not available
+binary_classification,coil_2000,75,f73,feature,NUMERIC,not available
+binary_classification,coil_2000,76,f74,feature,NUMERIC,not available
+binary_classification,coil_2000,77,f75,feature,NUMERIC,not available
+binary_classification,coil_2000,78,f76,feature,NUMERIC,not available
+binary_classification,coil_2000,79,f77,feature,NUMERIC,not available
+binary_classification,coil_2000,80,f78,feature,NUMERIC,not available
+binary_classification,coil_2000,81,f79,feature,NUMERIC,not available
+binary_classification,coil_2000,82,f80,feature,NUMERIC,not available
+binary_classification,coil_2000,83,f81,feature,NUMERIC,not available
+binary_classification,coil_2000,84,f82,feature,NUMERIC,not available
+binary_classification,coil_2000,85,f83,feature,NUMERIC,not available
+binary_classification,coil_2000,86,f84,feature,NUMERIC,not available
+binary_classification,coil_2000,87,target,target,CATEGORICAL,not available
+binary_classification,chess,1,id,id,TEXT,unique identifier
+binary_classification,chess,2,White_king_col,feature,CATEGORICAL,The column of the white king
+binary_classification,chess,3,White_king_row,feature,CATEGORICAL,The row of the white king
+binary_classification,chess,4,White_rook_col,feature,CATEGORICAL,The column of the white rook
+binary_classification,chess,5,White_rook_row,feature,CATEGORICAL,The row of the white rook
+binary_classification,chess,6,Black_king_col,feature,CATEGORICAL,The column of the black king
+binary_classification,chess,7,Black_king_row,feature,CATEGORICAL,The row of the black king
+binary_classification,chess,8,Class,target,CATEGORICAL,Wheather the game ended in a draw or not
+binary_classification,solar_flare,1,id,id,TEXT,unique identifier
+binary_classification,solar_flare,2,f0,feature,NUMERIC,not available
+binary_classification,solar_flare,3,f1,feature,NUMERIC,not available
+binary_classification,solar_flare,4,f2,feature,NUMERIC,not available
+binary_classification,solar_flare,5,f3,feature,NUMERIC,not available
+binary_classification,solar_flare,6,f4,feature,NUMERIC,not available
+binary_classification,solar_flare,7,f5,feature,NUMERIC,not available
+binary_classification,solar_flare,8,f6,feature,NUMERIC,not available
+binary_classification,solar_flare,9,f7,feature,NUMERIC,not available
+binary_classification,solar_flare,10,f8,feature,NUMERIC,not available
+binary_classification,solar_flare,11,f9,feature,NUMERIC,not available
+binary_classification,solar_flare,12,f10,feature,NUMERIC,not available
+binary_classification,solar_flare,13,f11,feature,NUMERIC,not available
+binary_classification,solar_flare,14,f12,feature,NUMERIC,not available
+binary_classification,solar_flare,15,f13,feature,NUMERIC,not available
+binary_classification,solar_flare,16,f14,feature,NUMERIC,not available
+binary_classification,solar_flare,17,f15,feature,NUMERIC,not available
+binary_classification,solar_flare,18,f16,feature,NUMERIC,not available
+binary_classification,solar_flare,19,f17,feature,NUMERIC,not available
+binary_classification,solar_flare,20,f18,feature,NUMERIC,not available
+binary_classification,solar_flare,21,f19,feature,NUMERIC,not available
+binary_classification,solar_flare,22,f20,feature,NUMERIC,not available
+binary_classification,solar_flare,23,f21,feature,NUMERIC,not available
+binary_classification,solar_flare,24,f22,feature,NUMERIC,not available
+binary_classification,solar_flare,25,f23,feature,NUMERIC,not available
+binary_classification,solar_flare,26,f24,feature,NUMERIC,not available
+binary_classification,solar_flare,27,f25,feature,NUMERIC,not available
+binary_classification,solar_flare,28,f26,feature,NUMERIC,not available
+binary_classification,solar_flare,29,f27,feature,NUMERIC,not available
+binary_classification,solar_flare,30,f28,feature,NUMERIC,not available
+binary_classification,solar_flare,31,f29,feature,NUMERIC,not available
+binary_classification,solar_flare,32,f30,feature,NUMERIC,not available
+binary_classification,solar_flare,33,f31,feature,NUMERIC,not available
+binary_classification,solar_flare,34,target,target,CATEGORICAL,not available
+binary_classification,jm1,1,id,id,TEXT,unique identifier
+binary_classification,jm1,2,loc,feature,NUMERIC,loc : numeric % McCabe's line count of code
+binary_classification,jm1,3,v(g),feature,NUMERIC,"v(g) : numeric % McCabe ""cyclomatic complexity"""
+binary_classification,jm1,4,ev(g),feature,NUMERIC,"ev(g) : numeric % McCabe ""essential complexity"""
+binary_classification,jm1,5,iv(g),feature,NUMERIC,"iv(g) : numeric % McCabe ""design complexity"""
+binary_classification,jm1,6,n,feature,NUMERIC,n : numeric % Halstead total operators + operands
+binary_classification,jm1,7,v,feature,NUMERIC,"v : numeric % Halstead ""volume"""
+binary_classification,jm1,8,l,feature,NUMERIC,"l : numeric % Halstead ""program length"""
+binary_classification,jm1,9,d,feature,NUMERIC,"d : numeric % Halstead ""difficulty"""
+binary_classification,jm1,10,i,feature,NUMERIC,"i : numeric % Halstead ""intelligence"""
+binary_classification,jm1,11,e,feature,NUMERIC,"e : numeric % Halstead ""effort"""
+binary_classification,jm1,12,b,feature,NUMERIC,b : numeric % Halstead
+binary_classification,jm1,13,t,feature,NUMERIC,t : numeric % Halstead's time estimator
+binary_classification,jm1,14,lOCode,feature,NUMERIC,lOCode : numeric % Halstead's line count
+binary_classification,jm1,15,lOComment,feature,NUMERIC,lOComment : numeric % Halstead's count of lines of comments
+binary_classification,jm1,16,lOBlank,feature,NUMERIC,lOBlank : numeric % Halstead's count of blank lines
+binary_classification,jm1,17,locCodeAndComment,feature,NUMERIC,lOCodeAndComment: numeric
+binary_classification,jm1,18,uniq_Op,feature,NUMERIC,uniq_Op : numeric % unique operators
+binary_classification,jm1,19,uniq_Opnd,feature,NUMERIC,uniq_Opnd : numeric % unique operands
+binary_classification,jm1,20,total_Op,feature,NUMERIC,total_Op : numeric % total operators
+binary_classification,jm1,21,total_Opnd,feature,NUMERIC,total_Opnd : numeric % total operands 21: branchCount : numeric % of the flow graph
+binary_classification,jm1,22,branchCount,feature,NUMERIC,branchCount : numeric % of the flow graph
+binary_classification,jm1,23,defects,target,CATEGORICAL,"defects : {false,true} % module has/has not one or more reported defects"
+binary_classification,club_loan,1,id,id,TEXT,unique identifier
+binary_classification,club_loan,2,credit.policy,feature,CATEGORICAL,not available
+binary_classification,club_loan,3,purpose,feature,CATEGORICAL,not available
+binary_classification,club_loan,4,int.rate,feature,NUMERIC,not available
+binary_classification,club_loan,5,installment,feature,NUMERIC,not available
+binary_classification,club_loan,6,log.annual.inc,feature,NUMERIC,not available
+binary_classification,club_loan,7,dti,feature,NUMERIC,not available
+binary_classification,club_loan,8,fico,feature,NUMERIC,not available
+binary_classification,club_loan,9,days.with.cr.line,feature,NUMERIC,not available
+binary_classification,club_loan,10,revol.bal,feature,NUMERIC,not available
+binary_classification,club_loan,11,revol.util,feature,NUMERIC,not available
+binary_classification,club_loan,12,inq.last.6mths,feature,CATEGORICAL,not available
+binary_classification,club_loan,13,delinq.2yrs,feature,CATEGORICAL,not available
+binary_classification,club_loan,14,pub.rec,feature,CATEGORICAL,not available
+binary_classification,club_loan,15,not.fully.paid,target,CATEGORICAL,not available
+binary_classification,yeast,1,id,id,TEXT,id
+binary_classification,yeast,2,Mcg,feature,NUMERIC,not available
+binary_classification,yeast,3,Gvh,feature,NUMERIC,not available
+binary_classification,yeast,4,Alm,feature,NUMERIC,not available
+binary_classification,yeast,5,Mit,feature,NUMERIC,not available
+binary_classification,yeast,6,Erl,feature,NUMERIC,not available
+binary_classification,yeast,7,Pox,feature,NUMERIC,not available
+binary_classification,yeast,8,Vac,feature,NUMERIC,not available
+binary_classification,yeast,9,Nuc,feature,NUMERIC,not available
+binary_classification,yeast,10,Class,target,CATEGORICAL,not available
+binary_classification,page_blocks,1,id,id,TEXT,unique identifier
+binary_classification,page_blocks,2,Height,feature,NUMERIC,not available
+binary_classification,page_blocks,3,Lenght,feature,NUMERIC,not available
+binary_classification,page_blocks,4,Area,feature,NUMERIC,not available
+binary_classification,page_blocks,5,Eccen,feature,NUMERIC,not available
+binary_classification,page_blocks,6,P_black,feature,NUMERIC,not available
+binary_classification,page_blocks,7,P_and,feature,NUMERIC,not available
+binary_classification,page_blocks,8,Mean_tr,feature,NUMERIC,not available
+binary_classification,page_blocks,9,Blackpix,feature,NUMERIC,not available
+binary_classification,page_blocks,10,Blackand,feature,NUMERIC,not available
+binary_classification,page_blocks,11,Wb_trans,feature,NUMERIC,not available
+binary_classification,page_blocks,12,Class,target,CATEGORICAL,not available
+binary_classification,wine_quality,1,id,id,TEXT,unique identifier
+binary_classification,wine_quality,2,f0,feature,NUMERIC,not available
+binary_classification,wine_quality,3,f1,feature,NUMERIC,not available
+binary_classification,wine_quality,4,f2,feature,NUMERIC,not available
+binary_classification,wine_quality,5,f3,feature,NUMERIC,not available
+binary_classification,wine_quality,6,f4,feature,NUMERIC,not available
+binary_classification,wine_quality,7,f5,feature,NUMERIC,not available
+binary_classification,wine_quality,8,f6,feature,NUMERIC,not available
+binary_classification,wine_quality,9,f7,feature,NUMERIC,not available
+binary_classification,wine_quality,10,f8,feature,NUMERIC,not available
+binary_classification,wine_quality,11,f9,feature,NUMERIC,not available
+binary_classification,wine_quality,12,f10,feature,NUMERIC,not available
+binary_classification,wine_quality,13,target,target,CATEGORICAL,not available
+binary_classification,mammography,1,id,id,TEXT,unique identifier
+binary_classification,mammography,2,f0,feature,NUMERIC,not available
+binary_classification,mammography,3,f1,feature,NUMERIC,not available
+binary_classification,mammography,4,f2,feature,NUMERIC,not available
+binary_classification,mammography,5,f3,feature,NUMERIC,not available
+binary_classification,mammography,6,f4,feature,NUMERIC,not available
+binary_classification,mammography,7,f5,feature,NUMERIC,not available
+binary_classification,mammography,8,target,target,CATEGORICAL,not available
